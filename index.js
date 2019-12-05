@@ -16,18 +16,13 @@ let person = {
         return this.firstName+" "+this.lastName;
     }
 }
-let fibonacci = {
-    n1: 1,
-    n2: 2,
-    n3: 3,
-    n4: 5,
-    n5: 8,
-    n6: 14,
-    n7: 21,
-}
-let data= fetch("jsonplaceholder.typicode.com/posts/42");
-let info = "Fetch is when you get info from a external source"+data;
+
+let data = fetch("jsonplaceholder.typicode.com/posts/42");
+carName = carGABRIEL.name;
+carmodel = carGABRIEL.model
+let info = "Fetch is when you get info from a external source ";
 
 function fetchInfo(){
     document.getElementById("info_fetch").innerHTML= info;
+    document.getElementById("Paradraph").innerHTML=carName + " " + carmodel;
 }
