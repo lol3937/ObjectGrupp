@@ -1,5 +1,24 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color:#57ddff;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 54px;
+}
+
+#content h1{   
+    text-align: center;
+}
+
+#content p{   
+    text-align: center;
+}
+
+#info_fetch{
+    margin-left: 45%;
 }
