@@ -9,16 +9,22 @@
     <title>Object</title>
 </head>
 <body>
-    <header>Info Object</header>
     <container id="content">
+        <header>Object is a thing that has propeties. like the example down below.</header>
         <h1>Example of an Object</h1>
-        <p>let myObject = {
-            name: "something",
-            where: "home"
-        };</p>
+        <p>"car" is an object and name, model, weight, color is propeties.</p>
+        <pre>let car = {
+            name: "Mini",
+            model: "cooper",
+            weight: "900kg",
+            color: "red"
 
-        <button id="info_fetch" onclick="fetchInfo()">Click here for info about fetch</button>
-        <p id="Paradraph">This will be replaced</p>
-    </container>
+        };
+        console.log(car.model); //output "cooper"   
+    </pre>
+
+
+    <button id="info_fetch" onClick="fetchInfo">Click here for info about fetch</button>
+</container>
 </body>
 </html>
