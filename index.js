@@ -1,5 +1,5 @@
 // Example of a object
-let bil = {
+let carGABRIEL = {
     name: "Tesla", 
     model: "Cybertruck", 
     weight: "3499",
@@ -18,13 +18,12 @@ let person = {
 }
 let fibonacci = {
     n1: 1,
-    n2: 1,
-    n3: 2,
-    n4: 3,
-    n5: 5,
-    n6: 8,
-    n7: 14,
-    n8: 21,
+    n2: 2,
+    n3: 3,
+    n4: 5,
+    n5: 8,
+    n6: 14,
+    n7: 21,
 }
 // let url = "jsonplaceholder.typicode.com/posts/42";
 fetch("jsonplaceholder.typicode.com/posts/42") = data;
@@ -32,6 +31,6 @@ fetch("jsonplaceholder.typicode.com/posts/42") = data;
 let info = "Fetch is when you get info from a external source" + data;
 
 function fetchInfo(){
-    document.getElementById("info_fetch").innerHTML= info;
-    return
+    let newData = document.getElementById("info_fetch").innerHTML= info;
+    return newData;
 }
