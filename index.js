@@ -12,17 +12,14 @@ let person = {
     lastName:"Musk", 
     age: 50, 
     occupation: "TeslaMaster",
-    fullName: function() {
-        return this.firstName+" "+this.lastName;
-    }
 }
 
 let data = fetch("jsonplaceholder.typicode.com/posts/42");
 carName = carGABRIEL.name;
 carmodel = carGABRIEL.model
-let info = "Fetch is when you get info from a external source ";
+let info = "Fetch is when you get info from a external source";
 
-function fetchInfo(){
-    document.getElementById("info_fetch").innerHTML= info;
-    document.getElementById("Paradraph").innerHTML=carName + " " + carmodel;
+function fetchInfo(carName, carmodel){
+    document.getElementById("info_fetch").innerHTML = info;
+    document.getElementById("Paradraph").innerHTML = carName + " " + carmodel;
 }
