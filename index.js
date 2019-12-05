@@ -25,12 +25,9 @@ let fibonacci = {
     n6: 14,
     n7: 21,
 }
-// let url = "jsonplaceholder.typicode.com/posts/42";
-fetch("jsonplaceholder.typicode.com/posts/42") = data;
-
-let info = "Fetch is when you get info from a external source" + data;
+let data= fetch("jsonplaceholder.typicode.com/posts/42");
+let info = "Fetch is when you get info from a external source"+data;
 
 function fetchInfo(){
-    let newData = document.getElementById("info_fetch").innerHTML= info;
-    return newData;
+    document.getElementById("info_fetch").innerHTML= info;
 }
