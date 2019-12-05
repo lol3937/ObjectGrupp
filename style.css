@@ -19,6 +19,10 @@ header{
     text-align: center;
 }
 
+#content pre{   
+    text-align: center;
+}
+
 #info_fetch{
     margin-left: 45%;
 }
