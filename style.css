@@ -26,11 +26,30 @@ header{
     background-color: black;
     color: white;
     width: 500px;
-    margin-left: 37%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
 #info_fetch{
-    margin-left: 38%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
     height: 50px;
+    font-size: 20px;
+}
+
+a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: dotted black;  
+    width: 150px;
+    height: 20px;
+    padding: 10px;
     font-size: 20px;
 }
