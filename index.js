@@ -14,12 +14,13 @@ let person = {
     occupation: "TeslaMaster",
 }
 
-let data = fetch("jsonplaceholder.typicode.com/posts/42");
+let data = fetch("http://jsonplaceholder.typicode.com/posts/42");
+data = JSON;
 carName = carGABRIEL.name;
 carmodel = carGABRIEL.model
 let info = "Fetch is when you get info from a external source";
 
-function fetchInfo(carName, carmodel){
+function fetchInfo(){
     document.getElementById("info_fetch").innerHTML = info;
-    document.getElementById("Paradraph").innerHTML = carName + " " + carmodel;
+    document.getElementById("Paradraph").innerHTML = carName + " " + carmodel + " "+ data;
 }
